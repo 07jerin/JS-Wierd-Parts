@@ -1,0 +1,33 @@
+<html>
+
+<head>
+ 
+</head>
+
+<body>
+ <!-- <script src="jquery-3.2.0.js"></script> 
+    <script src="greeter.js"></script>
+    <script src="app.js"></script>--> 
+    
+    <!--
+    When the script is kept at top the q.HTMLGreet("#greeting"); function of app.js does not set value to the H1.
+    This is because the DOM is not ready when the js ie executed
+-->
+    
+    
+</body>
+    <div id="loginDiv">
+        <select id="lang">
+        <option value="en">English</option>
+            <option value="es">Spanish</option>
+            <option value="fr">French</option>
+        </select>
+        <input type="button" value="Login" id="login"/>
+    </div>
+    <h1 id="greeting"></h1>
+    
+    <script src="jquery-3.2.0.js"></script> 
+    <script src="greeter.js"></script>
+    <script src="app.js"></script> 
+   
+</html>
